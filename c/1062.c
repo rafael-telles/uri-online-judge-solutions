@@ -59,7 +59,6 @@ int main() {
 
             pilha_t* a = criar_pilha(nv);
             pilha_t* est = criar_pilha(nv);
-            pilha_t* b = criar_pilha(nv);
             
             int v[nv];
             for (i = 0; i < nv; i++) {
@@ -117,7 +116,6 @@ int main() {
 
             free_pilha(a);
             free_pilha(est);
-            free_pilha(b);
         }
         printf("\n");
     }
